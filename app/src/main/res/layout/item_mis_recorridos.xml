@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="128dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="92dp" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/portal"
+            android:id="@+id/imgFotoCat"></ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@id/layoutTop" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_primario"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal"
+            android:text="Bares y cafés"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/lblNomCat"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_alterno"
+            android:text="10 lugares"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/lblNomCat"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/lblCantLugares"></TextView>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgCategoria"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_above="@id/layoutBottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/bares_circ" />
+
+</RelativeLayout>

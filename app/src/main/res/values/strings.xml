@@ -1,0 +1,60 @@
+<resources>
+    <string name="PREFS" translatable="false">sv.gob.centrohistorico.spref</string>
+    <string name="app_name">Centro Histórico</string>
+    <string name="home_pregunta" translatable="true">Busca un lugar</string>
+    <string name="home_texto1" translatable="true">Todo empieza por algo</string>
+    <string name="home_texto2" translatable="true">Cuéntanos, ¿adónde te llevamos?</string>
+    <string name="food">Comida</string>
+    <string name="bar">Bares y Cafés</string>
+    <string name="entertainment">Entretenimiento</string>
+    <string name="culture">Sitios Emblemáticos</string>
+    <string name="restaurants">Restaurantes</string>
+    <string name="alojamiento">Alojamiento</string>
+    <string name="plazas">Plazas y Parques</string>
+    <string name="facebook_app_id" translatable="false">391217758965582</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb391217758965582</string>
+    <string name="map_pregunta">¿Hacia donde quieres ir hoy?</string>
+    <string name="profile_info">Información Personal</string>
+    <string name="profile_notification">Notificaciones</string>
+    <string name="profile_trips">Mis Recorridos</string>
+    <string name="profile_friends">Invita a tus amigos</string>
+    <string name="profile_contact">Contacta al servicio de asistencia</string>
+    <string name="profile_terms">Términos de servicio</string>
+    <string name="profile_close">Cerrar Sesión</string>
+    <string name="name">Nombre</string>
+    <string name="email">email</string>
+    <string name="telefon">Teléfono</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="religion">Religión</string>
+    <string name="maps_search_place">Busca un lugar...</string>
+    <string name="search">Buscar</string>
+    <string name="hello">HOLA</string>
+    <string name="profile">PERFIL</string>
+    <string name="register">REGISTRO</string>
+    <string name="sign_up">Registrarme</string>
+    <string name="birthdate">Fecha de Nacimiento</string>
+    <string name="mevents">MIS EVENTOS</string>
+    <string name="mtours">MIS RECORRIDOS</string>
+    <string name="know_center">Conoce el Centro Histórico,</string>
+    <string name="know_center2">comienza nuevos recorridos.</string>
+    <string name="know_center3">Para iniciar, danos tus datos y nosotros nos adaptamos a ti.</string>
+
+    <string name="_facebook">Continuar con Facebook</string>
+    <string name="_google">Continuar con Google</string>
+    <string name="_no_sesion">Continuar sin iniciar sesión</string>
+    <string name="_user">Usuario no registrado</string>
+    <string name="_session_warning">Para utilizar esta opción, debes iniciar sesión.</string>
+    <string name="_whatsapp">Whatsapp no está instalado</string>
+    <string name="_share">Te comparto este enlace para instalar esta app:</string>
+    <string name="_close_session">¿Está seguro de cerrar sesión?</string>
+    <string name="_accept">Aceptar</string>
+    <string name="_cancel">Cancelar</string>
+    <string name="_participate_no_event">No se pudo registrar tu participación en este evento</string>
+    <string name="_participate_event">Se ha registrado tu participación en este evento</string>
+    <string name="_participate_already_event">Ya te has registrado para este evento</string>
+    <string name="_no_route">No se pudo registrar este recorrido</string>
+    <string name="_route">Se ha registrado tu recorrido</string>
+    <string name="_register_error">No se pudo registrar. Error: </string>
+    <string name="_register_success">Se ha registrado tu usuario correctamente</string>
+
+</resources>

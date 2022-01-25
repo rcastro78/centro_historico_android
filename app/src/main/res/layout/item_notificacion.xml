@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:weightSum="100"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:background="@drawable/borde_inferior">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80">
+
+        <ImageView
+            android:id="@+id/imgItem"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="4dp"
+            android:src="@drawable/perfil"></ImageView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:weightSum="100">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:id="@+id/lblItem"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/menu_primario"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripcion"
+                android:textSize="16dp"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:id="@+id/lblItemDescrip"
+                android:layout_below="@id/lblItem"
+
+                android:textColor="@color/menu_alterno"></TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="hoy"
+                android:textSize="14dp"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:id="@+id/lblFecha"
+                android:textColor="#303030"></TextView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

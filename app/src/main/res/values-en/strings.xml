@@ -1,0 +1,57 @@
+
+    <resources>
+        <string name="app_name">Centro Histórico</string>
+        <string name="home_pregunta" translatable="true">Search for a place</string>
+        <string name="home_texto1" translatable="true">Everything starts with something</string>
+        <string name="home_texto2" translatable="true">Tell us, where do we take you?</string>
+        <string name="food">Food</string>
+        <string name="bar">Bars and Cafe</string>
+        <string name="entertainment">Entertainment</string>
+        <string name="culture">Emblematic Sites</string>
+        <string name="restaurants">Restaurants</string>
+        <string name="alojamiento">Hotels</string>
+        <string name="plazas">Places and Parks</string>
+        <string name="map_pregunta">Where do you want to go today?</string>
+        <string name="profile_info">Personal Info</string>
+        <string name="profile_notification">Notifications</string>
+        <string name="profile_trips">My Trips</string>
+        <string name="profile_friends">Invite your friends</string>
+        <string name="profile_contact">Contact assistance service</string>
+        <string name="profile_terms">Service terms</string>
+        <string name="profile_close">Close Session</string>
+        <string name="name">Name</string>
+        <string name="email">email</string>
+        <string name="telefon">Phone</string>
+        <string name="religion">Religion</string>
+        <string name="maps_search_place">Search for a place...</string>
+        <string name="search">Search</string>
+        <string name="hello">HELLO</string>
+        <string name="profile">PROFILE</string>
+        <string name="know_center">Get to know the Historic Downtown,</string>
+        <string name="know_center2">start new tours.</string>
+        <string name="know_center3">For you to begin, give us your personal data and we will adapt to you.</string>
+        <string name="register">REGISTER</string>
+        <string name="sign_up">Sign Up</string>
+        <string name="birthdate">Birthdate</string>
+        <string name="mevents">MY EVENTS</string>
+        <string name="mtours">MY TOURS</string>
+
+        <string name="_facebook">Continue with Facebook</string>
+        <string name="_google">Continue with Google</string>
+        <string name="_no_sesion">Continue with no login</string>
+        <string name="_whatsapp">Whatsapp is not installed</string>
+        <string name="_session_warning">You must login/register to use this option</string>
+        <string name="_user">User not registered</string>
+        <string name="_share">I am sharing with you this app to install:</string>
+        <string name="_participate_no_event">You could not register in this event</string>
+        <string name="_participate_event">You have registered successfully to this event!</string>
+        <string name="_participate_already_event">You are already registered in this event</string>
+        <string name="_close_session">Are you sure to close session?</string>
+        <string name="_accept">Accept</string>
+        <string name="_no_route">This route could not be registered</string>
+        <string name="_route">You have registered this route successfully</string>
+        <string name="_cancel">Cancel</string>
+        <string name="_register_error">Could not register. Error:</string>
+        <string name="_register_success">User registered successfully</string>
+    </resources>
+

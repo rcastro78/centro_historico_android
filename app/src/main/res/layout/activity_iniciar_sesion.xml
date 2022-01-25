@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_inicio"
+    tools:context=".SplashFondoActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        app:srcCompat="@drawable/logo_centro" />
+
+    <TextView
+        android:id="@+id/lblEncab01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/know_center"
+        android:textColor="#fff"
+        android:textSize="28dp"></TextView>
+
+    <TextView
+        android:id="@+id/lblEncab02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblEncab01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/know_center2"
+        android:textColor="#fff"
+        android:textSize="24dp"></TextView>
+
+    <TextView
+        android:id="@+id/lblEncab03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblEncab02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/know_center3"
+        android:textColor="#fff"
+        android:textSize="18dp"></TextView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:weightSum="100"
+        android:layout_below="@id/lblEncab03"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="48dp"
+        android:id="@+id/llFB"
+        android:background="@drawable/boton_redondeado"
+
+        android:layout_marginRight="36dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="80">
+<ImageView
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+   android:layout_centerInParent="true"
+    android:src="@drawable/fb"></ImageView>
+</RelativeLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="20"
+            android:textColor="@color/fondo_inicio"
+            android:textAllCaps="false"
+            android:backgroundTint="#fff"
+            android:background="#fff"
+            android:id="@+id/btnLoginFB"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+
+            android:text="@string/_facebook"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:weightSum="100"
+        android:layout_below="@id/llFB"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/llGoogle"
+        android:background="@drawable/boton_redondeado"
+        android:layout_marginRight="36dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/googl"></ImageView>
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="20"
+            android:textColor="@color/menu_primario"
+            android:textAllCaps="false"
+            android:backgroundTint="#fff"
+            android:background="#fff"
+
+            android:id="@+id/btnLoginGoogle"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+
+            android:text="@string/_google"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:weightSum="100"
+        android:layout_below="@id/llGoogle"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/llNoSesion"
+        android:background="@drawable/boton_redondeado"
+        android:layout_marginRight="36dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/app_icon"></ImageView>
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="20"
+            android:textColor="@color/menu_primario"
+            android:textAllCaps="false"
+            android:backgroundTint="#fff"
+            android:background="#fff"
+
+            android:id="@+id/btnSinRegistro"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+
+            android:text="@string/_no_sesion"></Button>
+    </LinearLayout>
+
+</RelativeLayout>

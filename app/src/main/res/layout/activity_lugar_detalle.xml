@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/llContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+               <ImageView android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:id="@+id/imgFotoLugar"
+                   android:layout_weight="55"
+                   ></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100"
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:layout_weight="45">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="80">
+
+                        <TextView
+                            android:id="@+id/lblNomLugar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Nombre del lugar"
+                            android:textColor="@color/menu_primario"
+                            android:textSize="20dp"></TextView>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20">
+
+
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#fff"
+                            android:gravity="left"
+
+
+                            android:id="@+id/webDescLugar"></WebView>
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_margin="12dp"
+                            android:layout_alignParentRight="true"
+                            android:id="@+id/fabGuardarRecorrido"
+                            android:src="@android:drawable/ic_menu_edit"
+                            android:backgroundTint="@color/menu_primario"
+                            android:elevation="12dp"
+                            app:fabCustomSize="48dp"
+                            ></com.google.android.material.floatingactionbutton.FloatingActionButton>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llBotones"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="90"
+            android:orientation="horizontal"
+            android:background="#F0F0F0"
+            android:weightSum="100">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rlHome"
+                android:clickable="true"
+                android:layout_weight="20">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/home"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/imbHome"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rlMarker"
+                android:clickable="true"
+                android:layout_weight="20">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/marker"
+                    android:layout_centerInParent="true"
+                    android:backgroundTint="@color/pale_blue"
+                    android:id="@+id/imbMarker"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rlRecorrido"
+                android:clickable="true"
+                android:layout_weight="20">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/icono_360"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/imgRecorrido"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rlCal"
+                android:clickable="true"
+                android:layout_weight="20">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/calendario"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/imbCal"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rlPerfil"
+                android:clickable="true"
+                android:layout_weight="20">
+
+                <ImageView
+                    android:id="@+id/imbPerfil"
+                    android:layout_width="24dp"
+                    android:layout_height="32dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/perfil"></ImageView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "194369646113",
+    "project_id": "app-ss-historico",
+    "storage_bucket": "app-ss-historico.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194369646113:android:bacb8cdd2ee33c07597d60",
+        "android_client_info": {
+          "package_name": "sv.gob.sansalvadorhistorico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194369646113-1slqmecfqu8ohe9lmbv4ctl2tt5dad3n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sv.gob.sansalvadorhistorico",
+            "certificate_hash": "7847e319d6d4fba298af0066b557f17ad1473a7a"
+          }
+        },
+        {
+          "client_id": "194369646113-3jj32tvkp7kifugtkkjvlln1kvhlt6fb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sv.gob.sansalvadorhistorico",
+            "certificate_hash": "ae3fcac3761bd989522ff74a483f4f6cefd3d48a"
+          }
+        },
+        {
+          "client_id": "194369646113-telivb2bri5lm2i3j4qhg75k6am6p8h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwMXDSBWhiQ5ERcfV-298HEcRhGOq8lfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194369646113-telivb2bri5lm2i3j4qhg75k6am6p8h8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "194369646113-o828h0tj26546jale816g4akmm68b9q2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sv.gob.amss.San-Salvador-Historico"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/llContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="55"
+                android:background="@drawable/perfil_top"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="256dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/logo_centro_2"></ImageView>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:weightSum="10">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7">
+
+                        <ImageView
+                            android:id="@+id/imgFotoPerfil"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_centerInParent="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/perfil"></ImageView>
+
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/lblSaludo"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="HOLA"
+                                android:textColor="#fff"
+                                android:textSize="20dp"></TextView>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/lblNombre"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="cargando..."
+                                android:textColor="#fff"
+                                android:textSize="20dp"></TextView>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/lblHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="TÉRMINOS DE SERVICIO"
+                        android:textColor="#fff"
+                        android:textSize="18sp"></TextView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="45"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+               <ScrollView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+              <TextView android:layout_height="match_parent"
+                  android:layout_width="match_parent"
+                  android:textColor="@color/menu_primario"
+                  android:id="@+id/lblTermServ"
+                  android:text="Términos y Condiciones del uso que regulan las reglas a que se sujeta la utilización de la App Centro Histórico, que puede descargarse desde el dominio www.sansalvadorhistorico.com .
+1. La descarga o utilización de la APP atribuye la condición de usuario a quien lo haga e implica la aceptación de todas las condiciones incluidas en este documento y en la Política de Privacidad y el aviso legal de dicha página web. El usuario debería leer estas
+condiciones cada vez que utilice la APP, ya que podrían ser modificadas en lo sucesivo.
+2. Únicamente los usuarios que aceptes las condiciones de
+descarga y uso de la APP podrán hacer uso de la APP Centro Histórico.
+3. Cargos: eres responsable del pago de todos los costes o gastos en los que incurras como resultado de descargar y usar la aplicación incluido cualquier cargo de red de operador o itinerancia.
+4. APP Centro Histórico se reserva el derecho a realizar un seguimiento de tu actividad en la Aplicación de y a informar de ello a nuestros proveedores de servicios estadísticos deterceros.
+5. Protección de tu información personal: queremos ayudarte a llevar a cabo todos los pasos necesarios para proteger tu privacidad e información. Tu información no será compartida con nadie.
+6. Queda prohibido alterar o modificar ninguna parte de la APP a de los contenidas de la misma, eludir,desactivar o manipular de cualquier otra forma (o tratar de eludir, desactivar o manipular) las funciones de seguridad u otras funciones del programa y utilizar la APP. Queda prohibido el uso de la APP con la finalidad de lesionar bienes, derechos o intereses de la APP o de terceros. Queda igualmente prohibido realizar cualquier otro uso que altere, dañe o inutilice las redes, servidores, equipos, productos y programas informáticos de la APP o de terceros.
+7. La APP y sus contenidos (textos, fotografías, gráficos, imágenes, tecnología, software, links, contenidos, diseño gráfico, código fuente, etc.), así como las marcas y demás signos distintivos son propiedad de la APP Centro Histórico, USAID, no adquiriendo el Usuario ningún derecho sobre ellos
+por el mero uso de la APP. El Usuario, deberá abstenerse de:
+a) Reproducir, copiar, distribuir, poner a disposición de terceros, comunicar públicamente, transformar o modificar la APP o sus contenidos.
+b) Reproducir o copiar para uso privado la APP o sus contenidos, así como comunicarlos públicamente o ponerlos a disposición de terceros cuando ello conlleve su reproducción.
+c) Extraer o reutilizar todo o parte sustancial de los contenidos integrantes de la APP.
+8. Con sujeción a las condiciones establecidas en el apartado anterior, se concede al usuario una licencia de uso de la APP, no exclusiva, gratuita, para uso personal, circunscrita al territorio nacional y con carácter indefinido. Dicha licencia se concede también en los mismos términos con respecto a las actualizaciones y mejoras que se realizasen en la aplicación. Dichas licencias de uso podrán ser revocadas por Centro Histórico unilateralmente en cualquier momento,
+mediante la mera notificación al usuario.
+9. Corresponde al usuario, en todo caso, disponer de herramientas adecuadas para la detección y desinfección de programas maliciosos o cualquier otro elemento informático dañino. Centro Histórico no se responsabiliza de los daños producidos a equipos informáticos durante el usode la APP. Igualmente, App Centro Histórico no será responsable de los daños producidos a los usuarios cuando dichos daños tengan su origen en fallos o desconexiones en las redes de telecomunicaciones que interrumpan el servicio.
+10. IMPORTANTE: Podemos, sin que esto suponga ninguna obligación contigo, modificar estas condiciones de uso sin avisar en cualquier momento. Si continúas utilizando la aplicación una vez realizada cualquier modificación en estas condiciones de uso, esa utilización continuada constituirá la aceptación por tu parte de tales modificaciones. Si no aceptas estas condiciones de uso ni aceptas quedar sujeto a ellas, no debes utilizar la aplicación ni descargar o utilizar cualquier software relacionado. El uso que hagas de la aplicación queda bajo tu única responsabilidad. No tenemos responsabilidad alguna por la eliminación o la incapacidad de almacenar o trasmitir cualquier contenido u otra información mantenida o trasmitida por la aplicación. No somos responsables de la
+precisión o la fiabilidad de cualquier información o consejo trasmitidos a través de la aplicación. Podemos, en cualquier momento, limitar o interrumpir tu uso a nuestra única discreción. Hasta el máximo que permite la ley, en ningún caso seremos responsables por cualquier pérdida o daño relacionados.
+11. El Usuario se compromete a hacer un uso correcto de la APP, de conformidad con la ley, con los presentes términos y condiciones de uso y con las demás reglamentos e instrucciones que, en su caso, pudieran ser de aplicación el usuario responderá frente a App Centro Histórico y frente a terceros
+de cualesquiera daños o perjuicios que pudieran causarse por incumplimiento de estas obligaciones.
+12. Estos términos y condiciones de uso se rigen íntegramente por la legislación salvadoreña. Para la resolución de cualquier conflicto relativo a su interpretación o aplicación, el usuario se somete expresamente a la jurisdicción de los tribunales de El Salvador."/>
+               </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llBotones"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="90"
+            android:orientation="horizontal"
+            android:background="#F0F0F0"
+            android:weightSum="100">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rlHome"
+                android:clickable="true"
+                android:layout_weight="20">
+
+                <ImageView
+                    android:id="@+id/imbHome"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/home"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rlMarker"
+                android:clickable="true"
+                android:layout_weight="20">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/marker"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/imbMarker"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rlRecorrido"
+                android:clickable="true"
+                android:layout_weight="20">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/icono_360"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/imgRecorrido"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rlCal"
+                android:clickable="true"
+                android:layout_weight="20">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/calendario"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/imbCal"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rlPerfil"
+                android:clickable="true"
+                android:layout_weight="20">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="32dp"
+                    android:backgroundTint="@color/pale_blue"
+                    android:background="@drawable/perfil"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/imbPerfil"></ImageView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
